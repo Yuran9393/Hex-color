@@ -1,0 +1,40 @@
+body{
+    font-family: 'Comfortaa', cursive;
+    box-sizing: border-box;
+}
+.container{
+    text-align: center;
+}
+.hex_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    border: 1px solid indigo;
+}
+.hex_title{
+    font-weight: 800;
+    font-size: 5rem;
+}
+.hex_subtitle{
+    margin-top: 50px;
+}
+.hex_code{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.hex_buttons{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.hex_btn{
+    margin-right: 30px;
+}
