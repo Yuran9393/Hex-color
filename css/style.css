@@ -38,3 +38,45 @@ body{
 .hex_btn{
     margin-right: 30px;
 }
+
+@media(max-width: 321px){
+    .hex_body{
+        padding: 5px;
+    }
+    .hex_title{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .hex_subtitle{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .hex_code{
+        width: 270px;
+        height: 270px;
+    }
+    .hex_btn{
+        margin-right: 10px;
+    }
+}
+
+@media(max-width: 240px){
+    .hex_title{
+        font-size: 2rem;
+        margin-top: 5px;
+    }
+    .hex_subtitle{
+        margin-top: 0;
+        font-size: 1rem;
+    }
+    .hex_code{
+        width: 210px;
+        height: 210px;
+    }
+   .hex_buttons{
+       flex-direction: column;
+   }
+   .hex_default{
+       margin-top: 5px;
+   }
+}
